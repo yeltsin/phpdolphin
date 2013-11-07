@@ -1,10 +1,10 @@
 <?php
 //======================================================================\\
-// Author: Pricop Alexandru			                                    \\
-// Website: http://pricop.info									        \\
-// Email: pricop2008@yahoo.com											\\
-// Updated: 8/28/2013 [MM/DD/YYYY]										\\
-// Language: English													\\
+// Author: Pricop Alexandru                                             \\
+// Website: http://pricop.info                                          \\
+// Email: pricop2008@yahoo.com                                          \\
+// Updated: 11/07/2013 [MM/DD/YYYY]                                     \\
+// Language: English                                                    \\
 //======================================================================\\
 
 // Character encoding
