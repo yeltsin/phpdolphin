@@ -3,7 +3,7 @@
 // Author: Pricop Alexandru                                             \\
 // Website: http://pricop.info                                          \\
 // Email: pricop2008@yahoo.com                                          \\
-// Updated: 11/07/2013 [MM/DD/YYYY]                                     \\
+// Updated: 03/25/2014 [MM/DD/YYYY]                                     \\
 // Language: English                                                    \\
 //======================================================================\\
 
@@ -60,7 +60,6 @@ $LNG['valid_url'] = 'Please enter a valid URL format.';
 $LNG['background_changed'] = 'The background has been successfully changed.';
 $LNG['background_not_changed'] = 'The background could not be changed.';
 $LNG['password_too_short'] = 'The password must contain at least <strong>3</strong> characters.';
-$LNG['something_went_wrong'] = 'Something went wrong!';
 $LNG['username_not_found'] = 'We couldn\'t find the choosed username.';
 $LNG['userkey_not_found'] = 'The username or the reset key are wrong, make sure you\'ve entered the correct credentials.';
 $LNG['password_reseted'] = 'You have succcessfully reseted your passsword, you can now log-in using the new credentials.';
@@ -176,6 +175,7 @@ $LNG['filter_gender'] = 'Filter Gender';
 $LNG['sidebar_male'] = 'Male';
 $LNG['sidebar_female'] = 'Female';
 $LNG['all_genders'] = 'All genders';
+$LNG['view_all'] = 'View All';
 $LNG['online_friends'] = 'Online Friends';
 $LNG['sidebar_likes'] = 'Likes';
 $LNG['sidebar_comments'] = 'Comments';
@@ -206,7 +206,7 @@ $LNG['label_game'] = 'Add a played game';
 $LNG['label_movie'] = 'Add a watched movie';
 $LNG['label_visited'] = 'Add a visited location';
 $LNG['label_map'] = 'Add a place';
-$LNG['label_video'] = 'Share a video link from YouTube or Vimeo';
+$LNG['label_video'] = 'Share a video link from YouTube or Vimeo ';
 $LNG['label_music'] = 'Share a SoundCloud link or add a listened song';
 $LNG['label_image'] = 'Upload images';
 $LNG['message_form'] = 'What\'s on your mind?';
@@ -603,7 +603,7 @@ $LNG['reset_key'] = 'Reset Key';
 $LNG['new_password'] = 'New Password';
 $LNG['password_recovery'] = 'Password Recovery';
 $LNG['recover']	= 'Recover';
-$LNG['recover_sub_username'] = 'Type in the username you want to recover the password';
+$LNG['recover_sub_username'] = 'Type in the username or email you want to recover the password';
 
 // PROFILE //
 $LNG['profile_not_exist'] = 'Sorry, but this user profile does not exist.';

@@ -1,10 +1,10 @@
 <?php
 //======================================================================\\
-// Author: Pricop Alexandru                                             \\
-// Website: http://pricop.info                                          \\
-// Email: pricop2008@yahoo.com                                          \\
-// Updated: 11/07/2013 [MM/DD/YYYY]                                     \\
-// Language: Romanian                                                   \\
+// Author: Pricop Alexandru			                                    \\
+// Website: http://pricop.info									        \\
+// Email: pricop2008@yahoo.com											\\
+// Updated: 03/26/2014 [MM/DD/YYYY]                                     \\
+// Language: Romanian													\\
 //======================================================================\\
 
 // Character encoding
@@ -60,7 +60,6 @@ $LNG['valid_url'] = 'Vă rugam introduceți o adresă URL validă.';
 $LNG['background_changed'] = 'Imaginea de fundal a fost actualizată cu succes.';
 $LNG['background_not_changed'] = 'Imaginea de fundal nu a putut fi schimbată.';
 $LNG['password_too_short'] = 'Parola trebuie să conțină măcar <strong>3</strong> caractere.';
-$LNG['something_went_wrong'] = 'Ceva n-a mers';
 $LNG['username_not_found'] = 'Nu am găsit numele de utilizator ales.';
 $LNG['userkey_not_found'] = 'Numele de utilizator sau cheia de resetare sunt greșite. Asigurați-vă ca le-ați introdus corect.';
 $LNG['password_reseted'] = 'Parola d-voastră a fost resetată cu succes. Vă puteți autentifica cu noua parolă.';
@@ -173,9 +172,10 @@ $LNG['subscriptions'] = 'Prieteni';
 $LNG['subscribers'] = 'Ca prieten';
 $LNG['welcome'] = 'Bine ați venit';
 $LNG['filter_gender'] = 'Filtru gen';
-$LNG['sidebar_female'] = 'Femeie';
 $LNG['sidebar_male'] = 'Bărbat';
+$LNG['sidebar_female'] = 'Femeie';
 $LNG['all_genders'] = 'Toate genurile';
+$LNG['view_all'] = 'Vezi tot';
 $LNG['online_friends'] = 'Prieteni online';
 $LNG['sidebar_likes'] = 'Placute';
 $LNG['sidebar_comments'] = 'Comentarii';
@@ -603,7 +603,7 @@ $LNG['reset_key'] = 'Cheie Resetare';
 $LNG['new_password'] = 'Parolă nouă';
 $LNG['password_recovery'] = 'Recuperare Parolă';
 $LNG['recover']	= 'Recuperare';
-$LNG['recover_sub_username'] = 'Intrdouceți numele de utilizator pentru care doriți să recuperați parola.';
+$LNG['recover_sub_username'] = 'Intrdouceți numele de utilizator sau email-ul pentru care doriți să recuperați parola.';
 
 // PROFILE //
 $LNG['profile_not_exist'] = 'Ne pare rău dar acest utilizator nu există.';

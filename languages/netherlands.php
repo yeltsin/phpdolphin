@@ -1,10 +1,10 @@
 <?php
 //======================================================================\\
-// Author: Anthony Kuypers                                              \\
-// Website: http://pricop.info                                          \\
-// Email: pricop2008@yahoo.com                                          \\
-// Updated: 11/07/2013 [MM/DD/YYYY]                                     \\
-// Language: Dutch                                                      \\
+// Author: Anthony Kuypers			                                    \\
+// Website: http://pricop.info									        \\
+// Email: pricop2008@yahoo.com											\\
+// Updated: 03/26/2014 [MM/DD/YYYY]                                     \\
+// Language: Dutch												    	\\
 //======================================================================\\
 
 // Character encoding
@@ -60,7 +60,6 @@ $LNG['valid_url'] = 'Vul een geldige URL in';
 $LNG['background_changed'] = 'De achtergrond is met succes gewijzigd.';
 $LNG['background_not_changed'] = 'De achtergrond kan niet worden veranderd.';
 $LNG['password_too_short'] = 'Het wachtwoord moet minimaal <strong>3</strong> karakters bevatten.';
-$LNG['something_went_wrong'] = 'Er ging iets mis!';
 $LNG['username_not_found'] = 'We konden de gekozen gebruikersnaam niet vinden.';
 $LNG['userkey_not_found'] = 'De gebruikersnaam of de reset sleutel zijn verkeerd, zorg ervoor dat je de juiste gegevens hebt ingevoerd.';
 $LNG['password_reseted'] = 'You have succcessfully reseted your passsword, you can now log-in using the new credentials.';
@@ -176,6 +175,7 @@ $LNG['filter_gender'] = 'Filter Geslacht';
 $LNG['sidebar_male'] = 'Man';
 $LNG['sidebar_female'] = 'Vrouw';
 $LNG['all_genders'] = 'Alle geslachten';
+$LNG['view_all'] = 'Bekijk alle';
 $LNG['online_friends'] = 'Online vrienden';
 $LNG['sidebar_likes'] = 'Vind ik leuk';
 $LNG['sidebar_comments'] = 'Commentaar';
@@ -218,7 +218,7 @@ $LNG['event_not_exist'] = 'De geselecteerde gebeurtenis bestaat niet, Vernieuw d
 $LNG['unexpected_message'] = 'Er is een onverwachte fout opgetreden, Vernieuw de pagina en probeer het opnieuw.';
 $LNG['message_too_long'] = 'Sorry, maar het maximum aantal karakters per bericht is <strong>%s</strong>.';
 $LNG['files_selected'] = 'afbeeldig(en) geselecteerd.';
-$LNG['too_many_images'] = 'Het maximale aantal afbeeldingen dat per bericht mag geÃ¼pload worden is <strong>%s</strong>, je probeerde <strong>%s</strong> te uploaden.';
+$LNG['too_many_images'] = 'Het maximale aantal afbeeldingen dat per bericht mag geüpload worden is <strong>%s</strong>, je probeerde <strong>%s</strong> te uploaden.';
 
 // USER PANEL //
 $LNG['user_menu_general'] = 'Algemeen';
@@ -603,7 +603,7 @@ $LNG['reset_key'] = 'Hersel Sleutel';
 $LNG['new_password'] = 'Nieuw Wachtwoord';
 $LNG['password_recovery'] = 'Wachtwoord Herstel';
 $LNG['recover']	= 'Herstel';
-$LNG['recover_sub_username'] = 'Type de gebruikersnaam die je wilt herstellen.';
+$LNG['recover_sub_username'] = 'Type de gebruikersnaam of email die je wilt herstellen.';
 
 // PROFILE //
 $LNG['profile_not_exist'] = 'Sorry, maar deze gebruiker profiel bestaat niet.';
