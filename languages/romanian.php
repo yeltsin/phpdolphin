@@ -1,9 +1,9 @@
 <?php
 //======================================================================\\
-// Author: Pricop Alexandru			                                    \\
-// Website: http://pricop.info									        \\
-// Email: pricop2008@yahoo.com											\\
-// Language: Romanian													\\
+// Author: Pricop Alexandru			                                        \\
+// Website: http://pricop.info									                        \\
+// Email: pricop2008@yahoo.com							                     				\\
+// Language: Romanian						                                      	\\
 //======================================================================\\
 
 $LNG['user_success'] = 'Cont creeat cu success';
