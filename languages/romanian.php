@@ -1,7 +1,7 @@
 <?php
 //======================================================================\\
-// Author: Pricop Alexandru												\\
-// Website: http://pricop.info											\\
+// Author: Pricop Alexandru			                                    \\
+// Website: http://pricop.info									        \\
 // Email: pricop2008@yahoo.com											\\
 // Language: Romanian													\\
 //======================================================================\\
