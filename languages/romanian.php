@@ -6,7 +6,7 @@
 // Language: Romanian													\\
 //======================================================================\\
 
-$LNG['user_success'] = 'Cont creeat cu success';
+$LNG['user_success'] = 'Cont creeat cu succes';
 $LNG['user_exists'] = 'Numele de utilizator există deja';
 $LNG['email_exists'] = 'Adresa de email este deja folosită';
 $LNG['all_fields'] = 'Toate câmpurile sunt obligatorii';
@@ -71,7 +71,7 @@ $LNG['user_has_been_deleted'] = 'Utilizatorul <strong>%s</strong> a fost șters.
 $LNG['user_not_exist'] = 'Utilizatorul selectat nu există.';
 $LNG['theme_changed'] = 'Tema schimbată';
 $LNG['notif_saved'] = 'Notificări actualizate';
-$LNG['notif_success_saved'] = 'Notificările au fost actualizate cu success.';
+$LNG['notif_success_saved'] = 'Notificările au fost actualizate cu succes.';
 
 // MAIL CONTENT
 $LNG['welcome_mail'] = 'Bine ai venit la %s';
@@ -153,7 +153,7 @@ $LNG['login_to_lcs'] = 'Autentificați-vă pentru pentru a putea Aprecia, Coment
 $LNG['message'] = 'Mesaj';
 $LNG['comment'] = 'Comentează';
 $LNG['share'] = 'Distribuie';
-$LNG['shared_success'] = 'Mesajul a fost distribuit cu success pe <a href="%s" rel="loadpage"><strong>timeline-ul</strong> tău</a>.';
+$LNG['shared_success'] = 'Mesajul a fost distribuit cu succes pe <a href="%s" rel="loadpage"><strong>timeline-ul</strong> tău</a>.';
 $LNG['no_shared'] = 'Ne pare rău dar acest mesaj nu poate fi distribuit.';
 $LNG['share_desc'] = 'Ești sigur(ă) că vrei să distribui acest mesaj pe timeline-ul tău?';
 $LNG['cancel'] = 'Anulează';
