@@ -123,8 +123,8 @@ $LNG['by'] = 'De';
 $LNG['settings'] = 'Setări';
 
 // FEED
-$LNG['welcome_feed_ttl'] = 'Bine ai venit la Feed-ul tău.';
-$LNG['welcome_feed'] = 'Toate mesajele prietenilor tăi vor aparea pe aceasta pagină. Începe prin a-ți face prieteni.';
+$LNG['welcome_feed_ttl'] = 'Bine ai venit la Noutăți';
+$LNG['welcome_feed'] = 'Toate mesajele prietenilor tăi vor apărea pe această pagină. Începe prin a-ți face prieteni.';
 $LNG['leave_comment'] = 'Lasă un comentariu...';
 $LNG['post'] = 'Postează';
 $LNG['view_more_messages'] = 'Încarcă mai mult';
