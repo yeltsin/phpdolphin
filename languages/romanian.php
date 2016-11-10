@@ -32,6 +32,7 @@ $LNG['welcome_title'] = 'Bine ați venit';
 $LNG['welcome_desc'] = 'în rețeaua noastră de socializare';
 $LNG['welcome_about'] = 'împărtășește-ți aminitirile, conectează-te cu alții, fă-ți prieteni noi.';
 $LNG['forgot_password'] = 'Ați uitat parola?';
+$LNG['remember_me'] = 'Amintește-mă';
 $LNG['all_rights_reserved'] = 'Toate drepturile rezervate';
 
 $LNG['welcome_one'] = 'Conectează-te';
@@ -77,7 +78,7 @@ $LNG['notif_success_saved'] = 'Notificările au fost actualizate cu succes.';
 $LNG['welcome_mail'] = 'Bine ai venit la %s';
 $LNG['user_created'] = 'Mulțumim că te-ai alăturat <strong>%s</strong>.<br /><br />Nume utilizator: <strong>%s</strong><br />Parola: <strong>%s</strong><br /><br />Te poți autentifica la: <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Recuperare parolă';
-$LNG['recover_content'] = 'O cerere de recuperare a parolei a fost cerută. Dacă nu ești tu cel care a inițiat această acțiune, te rugăm să ignori acest email. <br /><br />Nume utilizator: <strong>%s</strong><br />Cheia de resetare: <strong>%s</strong><br /><br />Vă puteți reseta parola accesând următorul link: <a href="%s/index.php?a=recover&r=1" target="_blank">%s/index.php?a=recover&r=1</a>';
+$LNG['recover_content'] = 'O cerere de recuperare a parolei a fost cerută. Dacă nu ești tu cel care a inițiat această acțiune, te rugăm să ignori acest email. <br /><br />Nume utilizator: <strong>%s</strong><br />Cheia de resetare: <strong>%s</strong><br /><br />Vă puteți reseta parola accesând următorul link: <a href="%s" target="_blank">%s</a>';
 $LNG['email_hello'] = 'Bună ziua <strong>%s</strong>,<br /><br />';
 $LNG['email_unsub'] = '<br /><br /><span style="color: #aaa;">Acest mesaj a fost trimis automat, dacă nu doriți să mai primiți astfel de mesaje de la <strong>%s</strong> în viitor, vă rugam să vă <a href="%s">Dezabonați</a>.</span>';
 $LNG['email_copy'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Toate drepturile rezervate.';
@@ -460,6 +461,9 @@ $LNG['admin_sub_chat_perpage'] = 'Numărul conversațiilor pe pagină';
 $LNG['admin_ttl_smiles'] = 'Emoticoane';
 $LNG['admin_sub_smiles'] = 'Permite și transformă text-ul în emoticoane la Mesaje, Comentarii și Conversații';
 
+$LNG['admin_ttl_permalinks'] = 'Permalinkuri';
+$LNG['admin_sub_permalinks'] = 'Activează structură de link-uri permanente (example.com/profile/username)';
+
 $LNG['admin_ttl_email_activation'] = 'Activare Email';
 $LNG['admin_sub_email_activation'] = 'Necesită activarea contului prin email';
 
@@ -778,9 +782,13 @@ $LNG['group_deleted'] = 'Grupul <strong>%s</strong> a fost șters';
 $LNG['invite_friends'] = 'Invită Prieteni';
 
 // PROFILE
+$LNG['profile_not_exist'] = 'Ne pare rău dar acest profil nu există.';
+$LNG['group_not_exist'] = 'Ne pare rău dar acest grup nu există.';
 $LNG['profile_semi_private'] = 'Ne pare rău dar profilul acesta este privat, doar prietenii lui îi pot vizualiza profilul.';
 $LNG['profile_private'] = 'Ne pare rău dar acest profil este complet privat.';
 $LNG['profile_suspended'] = 'Ne pare rău, dar acest profil este suspendat.';
+$LNG['profile_not_exist_ttl'] = 'Profilul nu există.';
+$LNG['group_not_exist_ttl'] = 'Grupul nu există.';
 $LNG['profile_semi_private_ttl'] = 'Profil privat';
 $LNG['profile_private_ttl'] = 'Profil privat';
 $LNG['profile_suspended_ttl'] = 'Profil Suspendat';
