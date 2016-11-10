@@ -78,7 +78,7 @@ $LNG['notif_success_saved'] = 'Notifications has been successfully updated.';
 $LNG['welcome_mail'] = 'Welcome to %s';
 $LNG['user_created'] = 'Thank you for joining <strong>%s</strong>.<br /><br />Your username: <strong>%s</strong><br />Your Password: <strong>%s</strong><br /><br />You can log-in at: <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Password Recovery';
-$LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br /><br />Your Username: <strong>%s</strong><br />Your Reset Key: <strong>%s</strong><br /><br />You can reset your password by accessing the following link: <a href="%s/index.php?a=recover&r=1" target="_blank">%s/index.php?a=recover&r=1</a>';
+$LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br /><br />Your Username: <strong>%s</strong><br />Your Reset Key: <strong>%s</strong><br /><br />You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>';
 $LNG['email_hello'] = 'Hello <strong>%s</strong>,<br /><br />';
 $LNG['email_unsub'] = '<br /><br /><span style="color: #aaa;">This message was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
 $LNG['email_copy'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
@@ -460,6 +460,9 @@ $LNG['admin_sub_chat_perpage'] = 'The number of chat conversations per page';
 
 $LNG['admin_ttl_smiles'] = 'Emoticons';
 $LNG['admin_sub_smiles'] = 'Allow and transform shortcodes on Messages, Comments and Chat into emoticons';
+
+$LNG['admin_ttl_permalinks'] = 'Permalinks';
+$LNG['admin_sub_permalinks'] = 'Enable permalinks URL structure (example.com/profile/username)';
 
 $LNG['admin_ttl_email_activation'] = 'Email Activation';
 $LNG['admin_sub_email_activation'] = 'Require the account to be activated via email';
