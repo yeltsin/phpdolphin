@@ -154,11 +154,15 @@ $LNG['login_to_lcs'] = 'Autentificați-vă pentru pentru a putea Aprecia, Coment
 $LNG['message'] = 'Mesaj';
 $LNG['comment'] = 'Comentează';
 $LNG['share'] = 'Distribuie';
+$LNG['camera'] = 'Cameră';
+$LNG['capture'] = 'Captură';
+$LNG['send'] = 'Trimite';
 $LNG['shared_success'] = 'Mesajul a fost distribuit cu succes pe <a href="%s" rel="loadpage"><strong>timeline-ul</strong> tău</a>.';
 $LNG['no_shared'] = 'Ne pare rău dar acest mesaj nu poate fi distribuit.';
 $LNG['share_desc'] = 'Ești sigur(ă) că vrei să distribui acest mesaj pe timeline-ul tău?';
 $LNG['cancel'] = 'Anulează';
 $LNG['close'] = 'Închide';
+$LNG['download'] = 'Descarcă';
 
 // REPORT
 $LNG['1_not_exists'] = 'Mesajul raportat nu există.';
@@ -256,6 +260,7 @@ $LNG['user_menu_security'] = 'Parolă';
 $LNG['user_menu_avatar'] = 'Imagini Profil';
 $LNG['user_menu_notifications'] = 'Notificări';
 $LNG['user_menu_privacy'] = 'Intimitate';
+$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Șterge Cont';
 $LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Utilizatori Blocați';
 $LNG['other'] = 'Altele';
 
@@ -266,6 +271,7 @@ $LNG['user_ttl_notifications'] = 'Setări Notificări';
 $LNG['user_ttl_privacy'] = 'Setări intimitate';
 
 $LNG['blocked_desc'] = 'Persoanele blocate nu mai pot vedea ce postezi pe timeline-ul tău, să-ți trimită mesaje sau să te adauge la prieteni.';
+$LNG['delete_acc_desc'] = 'Contul tău va fi șters definitiv, împreună cu tot conținutul asociat acestuia.';
 
 $LNG['ttl_first_name'] = $LNG['first_name'] = 'Nume';
 $LNG['sub_first_name'] = 'Introdu-ți numele de familie';
@@ -619,6 +625,9 @@ $LNG['group_to_edit'] = 'Nume Grup';
 $LNG['group_to_edit_sub'] = 'Introdu numele de grup pe care vrei să-l editezi';
 $LNG['page_to_edit'] = 'Nume Pagina';
 $LNG['page_to_edit_sub'] = 'Introdu numele paginii pe care vrei s-o editezi';
+$LNG['chat_smiles'] = 'Adaugă emoticoane';
+$LNG['chat_picture'] = 'Încarcă imagine';
+$LNG['chat_camera'] = 'Fă o poză';
 
 // STATS
 $LNG['likes'] = 'Aprecieri';
@@ -824,6 +833,7 @@ $LNG['no_results'] = 'Nici un rezultat disponibil. Încercați o căutare nouă.
 $LNG['no_results_ttl'] = 'Rezultate Căutare';
 $LNG['search_for_users'] = 'Caută utilizatori';
 $LNG['search_in_friends'] = 'Caută în prieteni';
+$LNG['type_message'] = 'Scrie un mesaj...';
 $LNG['follows'] = 'Urmărește';
 $LNG['followed_by'] = 'Urmărit de';
 $LNG['people'] = 'persoane';

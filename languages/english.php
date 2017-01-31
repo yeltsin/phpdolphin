@@ -65,7 +65,7 @@ $LNG['password_not_match'] = 'The password did not match.';
 $LNG['wrong_current_password'] = 'The current password you\'ve entered is incorrect.';
 $LNG['username_not_found'] = 'We couldn\'t find the choosed username.';
 $LNG['userkey_not_found'] = 'The username or the reset key are wrong, make sure you\'ve entered the correct credentials.';
-$LNG['password_reseted'] = 'You have succcessfully reseted your passsword, you can now log-in using the new credentials.';
+$LNG['password_reseted'] = 'You have succcessfully reset your passsword, you can now log-in using the new credentials.';
 $LNG['email_sent'] = 'Email sent';
 $LNG['email_reset'] = 'An email containing password reset instructions has been sent. Please allow us up to 24 hours to deliver the message, also check your Spam box if you can\'t find in your Inbox.';
 $LNG['user_has_been_deleted'] = 'User <strong>%s</strong> has been deleted.';
@@ -154,11 +154,15 @@ $LNG['login_to_lcs'] = 'Log-in to Like, Comment or Share';
 $LNG['message'] = 'Message';
 $LNG['comment'] = 'Comment';
 $LNG['share'] = 'Share';
+$LNG['camera'] = 'Camera';
+$LNG['capture'] = 'Capture';
+$LNG['send'] = 'Send';
 $LNG['shared_success'] = 'The post has been successfully shared on your <a href="%s" rel="loadpage"><strong>timeline</strong></a>.';
 $LNG['no_shared'] = 'Sorry but this message can\'t be shared.';
 $LNG['share_desc'] = 'Are you sure do you want to share this message on your timeline?';
 $LNG['cancel'] = 'Cancel';
 $LNG['close'] = 'Close';
+$LNG['download'] = 'Download';
 
 // REPORT
 $LNG['1_not_exists'] = 'The reported message does not exist.';
@@ -256,6 +260,7 @@ $LNG['user_menu_security'] = 'Password';
 $LNG['user_menu_avatar'] = 'Profile Images';
 $LNG['user_menu_notifications'] = 'Notifications';
 $LNG['user_menu_privacy'] = 'Privacy';
+$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Delete Account';
 $LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Blocked Users';
 $LNG['other'] = 'Other';
 
@@ -266,6 +271,7 @@ $LNG['user_ttl_notifications'] = 'Notifications Settings';
 $LNG['user_ttl_privacy'] = 'Privacy Settings';
 
 $LNG['blocked_desc'] = 'Blocked persons can no longer see things you post on your timeline, message or add you as a friend.';
+$LNG['delete_acc_desc'] = 'Your account will be permanently deleted along with all the related content of it.';
 
 $LNG['ttl_first_name'] = $LNG['first_name'] = 'First Name';
 $LNG['sub_first_name'] = 'Enter your first name';
@@ -619,6 +625,9 @@ $LNG['group_to_edit'] = 'Group name';
 $LNG['group_to_edit_sub'] = 'Enter the group name you want to edit';
 $LNG['page_to_edit'] = 'Page name';
 $LNG['page_to_edit_sub'] = 'Enter the page name you want to edit';
+$LNG['chat_smiles'] = 'Add emoticons';
+$LNG['chat_picture'] = 'Upload image';
+$LNG['chat_camera'] = 'Take a photo';
 
 // STATS
 $LNG['likes'] = 'Likes';
@@ -824,6 +833,7 @@ $LNG['no_results'] = 'No results available. Try another search.';
 $LNG['no_results_ttl'] = 'Search Results';
 $LNG['search_for_users'] = 'Search for users';
 $LNG['search_in_friends'] = 'Search in friends';
+$LNG['type_message'] = 'Type a message...';
 $LNG['follows'] = 'Follows';
 $LNG['followed_by'] = 'Followed by';
 $LNG['people'] = 'people';
