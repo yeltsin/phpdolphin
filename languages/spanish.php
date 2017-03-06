@@ -6,7 +6,7 @@ $name = 'Spanish (Castellano)';
 $author = 'Jaume d\'Urgell';
 
 // Language URL
-$url = 'http://https://www.ucm.es/emui/jaume-durgell';
+$url = 'https://www.ucm.es/emui/jaume-durgell';
 
 $LNG['0_already_reported'] = 'Esta respuesta ya ha sido denunciada y será revisada lo antes posible. Lamentamos las molestias. Gracias por tu colaboración.';
 $LNG['0_is_deleted'] = 'La respuesta se ha borrado. Gracias por tu colaboración.';
