@@ -1,10 +1,12 @@
 <?php
-//======================================================================\\
-// Author: Pricop Alexandru			                                    \\
-// Website: http://pricop.info									        \\
-// Email: pricop2008@yahoo.com											\\
-// Language: Romanian													\\
-//======================================================================\\
+// Language Name
+$name = 'Romanian';
+
+// Language Author
+$author = 'phpDolphin';
+
+// Language URL
+$url = 'http://phpdolphin.com';
 
 $LNG['user_success'] = 'Cont creeat cu succes';
 $LNG['user_exists'] = 'Numele de utilizator există deja';
@@ -115,7 +117,8 @@ $LNG['emails'] = 'Emailuri';
 
 $LNG['theme_install'] = 'Pentru a instala o temă, încărcați-o în folderul <strong>themes</strong>';
 $LNG['plugin_install'] = 'Pentru a instala un plugin, încărcați-l în folderul <strong>plugins</strong>';
-$LNG['auhtor_title'] = 'Vizitează pagina autorului';
+$LNG['language_install'] = 'Pentru a instala o limbă, încărcați-o în folderul <strong>languages</strong>';
+$LNG['author_title'] = 'Vizitează pagina autorului';
 $LNG['version'] = 'Versiune';
 $LNG['active'] = 'Activă';
 $LNG['activate'] = 'Activează';
@@ -220,7 +223,6 @@ $LNG['sidebar_tag'] = 'Hashtaguri';
 
 // MESSAGES / CHAT
 $LNG['lonely_here'] = 'Este pustiu aici, ce zici de niște prieteni noi?';
-$LNG['write_message'] = 'Scrie un mesaj...';
 $LNG['chat_too_long'] = 'Ne pare rău dar numărul maxim de caractere admise este de <strong>%s</strong>.';
 $LNG['blocked_by'] = 'Acest mesaj nu s-a putut trimite. <strong>%s</strong> te-a blocat.';
 $LNG['blocked_user'] = 'Acest mesaj nu s-a putut trimite. L-ai blocat pe <strong>%s</strong>.';
@@ -373,6 +375,8 @@ $LNG['confirmed'] = 'Confirmat';
 $LNG['declined'] = 'Respins';
 $LNG['make_admin'] = 'Prom. Admin';
 $LNG['remove_admin'] = 'Șterge Admin';
+$LNG['default'] = 'Principală';
+$LNG['make_default'] = 'Fă-o principală';
 
 $LNG['ttl_notificationl'] = 'Notificări Aprecieri';
 $LNG['sub_notificationl'] = 'Afișează alertă și notificare pentru <strong>Aprecieri</strong>';
@@ -433,6 +437,7 @@ $LNG['admin_ttl_dashboard']			= $LNG['admin_menu_dashboard']		= 'Panou Control';
 $LNG['admin_ttl_site_settings'] 	= $LNG['admin_menu_site_settings'] 	= 'Setări Site';
 $LNG['admin_ttl_themes'] 			= $LNG['admin_menu_themes'] 		= 'Teme';
 $LNG['admin_ttl_plugins'] 			= $LNG['admin_menu_plugins'] 		= 'Pluginuri';
+$LNG['admin_ttl_languages']			= $LNG['admin_menu_languages'] 		= 'Limbi';
 $LNG['admin_ttl_stats'] 			= $LNG['admin_menu_stats'] 			= 'Statistici';
 $LNG['admin_ttl_security'] 			= $LNG['admin_menu_security'] 		= 'Parolă';
 $LNG['admin_ttl_users'] 			= $LNG['admin_menu_users'] 			= 'Manageriază Utilizatori';
@@ -440,6 +445,7 @@ $LNG['admin_ttl_manage_pages']		= $LNG['admin_menu_manage_pages']	= 'Manageriaz�
 $LNG['admin_ttl_manage_groups']		= $LNG['admin_menu_manage_groups'] 	= 'Manageriază Grupuri';
 $LNG['admin_ttl_manage_reports']	= $LNG['admin_menu_manage_reports'] = 'Manageriază Raportările';
 $LNG['admin_ttl_manage_ads']		= $LNG['admin_menu_manage_ads']		= 'Manageriază Reclame';
+$LNG['admin_ttl_info_pages']		= $LNG['admin_menu_info_pages'] 	= 'Info Pagini';
 
 $LNG['list_users'] = 'Utilizatori';
 $LNG['list_moderators'] = 'Moderatori';
@@ -449,11 +455,17 @@ $LNG['list_suspended'] = 'Suspendați';
 $LNG['title'] = 'Titlu';
 $LNG['admin_sub_title'] = 'Titlul site-ului';
 
+$LNG['logo'] = 'Siglă';
+$LNG['admin_sub_logo'] = 'Sigla site-ului (format PNG)';
+
 $LNG['admin_ttl_captcha'] = 'Captcha';
 $LNG['admin_sub_captcha'] = 'Activează Captcha la înregistrare';
 
 $LNG['admin_ttl_timestamp'] = 'Timestamp';
 $LNG['admin_sub_timestamp'] = 'Tipul timestamp-ului pentru Mesaje, Comentarii și Conversații';
+
+$LNG['admin_ttl_timezone'] = 'Fus orar';
+$LNG['admin_sub_timezone'] = 'Fus orar suportat de PHP';
 
 $LNG['admin_ttl_msg_perpage'] = 'Mesaje';
 $LNG['admin_sub_msg_perpage'] = 'Numărul mesajelor pe pagină';
@@ -510,7 +522,10 @@ $LNG['admin_ttl_message_format'] = 'Format Imagine (Mesaje)';
 $LNG['admin_sub_message_format'] = 'Format imagine admis pentru încărcare (Mesaje), folosiți doar gif,png,jpg alte formate nu sunt suportate';
 
 $LNG['admin_ttl_censor'] = 'Cenzură';
-$LNG['admin_sub_censor'] = 'Cuvintele pentru a fi cenzurate (despărțite de \',\' [virgulă])';
+$LNG['admin_sub_censor'] = 'Cuvinte cenzurate (exemplu: cuvant1, cuvant2, cuvant3)';
+
+$LNG['email_providers'] = 'Furnizori Email';
+$LNG['sub_email_providers'] = 'Permite înregistrarea unor furnizori de email specifici (example: domain.com, domain.org)';
 
 $LNG['admin_ttl_ad1'] = 'Unitate reclamă 1';
 $LNG['admin_sub_ad1'] = 'Unitatea 1 de reclamă (Subsol [Pagin Principala])';
@@ -609,6 +624,21 @@ $LNG['admin_sub_tracking'] = 'Codul de monitorizare analitică';
 $LNG['join_date'] = 'Data Înregistrării';
 $LNG['user_group'] = 'Grup Utilizatori';
 $LNG['ttl_verified'] = 'Verificat';
+
+$LNG['sub_verified'] = 'Stare cont verificat';
+$LNG['sub_group'] = 'Grup cont';
+$LNG['sub_suspended'] = 'Stare cont suspendat';
+
+$LNG['page_title'] = 'Titlu pagină';
+$LNG['page_url'] = 'URL pagină';
+$LNG['public_page'] = 'Pagină Publică';
+$LNG['page_content'] = 'Conținut Pagină';
+
+$LNG['sub_page_title'] = 'Titlul paginii (suportă texte translatabile)';
+$LNG['sub_page_url'] = 'URL-ul paginii (fără caractere speciale)';
+$LNG['sub_public_page'] = 'Afisează pagina în subsol și meniul lateral';
+$LNG['sub_page_content'] = 'Conținutul paginii (suportă texte translatabile)';
+$LNG['url_exists'] = 'Acest URL de pagină există deja';
 
 $LNG['per_page'] = '/ pagină';
 $LNG['per_ip'] = '/ IP';
@@ -873,7 +903,6 @@ $LNG['terms_of_use'] = 'Termeni de Utilizare';
 $LNG['about'] = 'Despre';
 $LNG['disclaimer'] = 'Disclaimer';
 $LNG['contact'] = 'Contact';
-$LNG['api_documentation'] = 'Documentație API';
 $LNG['developers'] = 'Dezvoltatori';
 $LNG['language'] = 'Limbă';
 

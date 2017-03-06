@@ -1,10 +1,12 @@
 <?php
-//======================================================================\\
-// Author: Pricop Alexandru                                             \\
-// Website: http://pricop.info                                          \\
-// Email: pricop2008@yahoo.com                                          \\
-// Language: English                                                    \\
-//======================================================================\\
+// Language Name
+$name = 'English';
+
+// Language Author
+$author = 'phpDolphin';
+
+// Language URL
+$url = 'http://phpdolphin.com';
 
 $LNG['user_success'] = 'User succesfully created';
 $LNG['user_exists'] = 'This username already exists';
@@ -115,7 +117,8 @@ $LNG['emails'] = 'Emails';
 
 $LNG['theme_install'] = 'To install a new theme, upload it on the <strong>themes</strong> folder';
 $LNG['plugin_install'] = 'To install a new plugin, upload it on the <strong>plugins</strong> folder';
-$LNG['auhtor_title'] = 'Visit the author homepage';
+$LNG['language_install'] = 'To install a new language, upload it on the <strong>languages</strong> folder';
+$LNG['author_title'] = 'Visit the author homepage';
 $LNG['version'] = 'Version';
 $LNG['active'] = 'Active';
 $LNG['activate'] = 'Activate';
@@ -220,7 +223,6 @@ $LNG['sidebar_tag'] = 'Hashtags';
 
 // MESSAGES / CHAT
 $LNG['lonely_here'] = 'It\'s lonely here, how about making some friends?';
-$LNG['write_message'] = 'Write a message...';
 $LNG['chat_too_long'] = 'Sorry, but the maximum characters allowed per chat message is <strong>%s</strong>.';
 $LNG['blocked_by'] = 'The message could not be sent. <strong>%s</strong> blocked you.';
 $LNG['blocked_user'] = 'The message could not be sent. You\'ve blocked <strong>%s</strong>.';
@@ -373,6 +375,8 @@ $LNG['confirmed'] = 'Confirmed';
 $LNG['declined'] = 'Declined';
 $LNG['make_admin'] = 'Make Admin';
 $LNG['remove_admin'] = 'Remove Admin';
+$LNG['default'] = 'Default';
+$LNG['make_default'] = 'Make Default';
 
 $LNG['ttl_notificationl'] = 'Likes Notifications';
 $LNG['sub_notificationl'] = 'Display alert and notifications for <strong>Likes</strong>';
@@ -433,6 +437,7 @@ $LNG['admin_ttl_dashboard']			= $LNG['admin_menu_dashboard']		= 'Dashboard';
 $LNG['admin_ttl_site_settings'] 	= $LNG['admin_menu_site_settings'] 	= 'Site Settings';
 $LNG['admin_ttl_themes'] 			= $LNG['admin_menu_themes'] 		= 'Themes';
 $LNG['admin_ttl_plugins'] 			= $LNG['admin_menu_plugins'] 		= 'Plugins';
+$LNG['admin_ttl_languages']			= $LNG['admin_menu_languages'] 		= 'Languages';
 $LNG['admin_ttl_stats'] 			= $LNG['admin_menu_stats'] 			= 'Statistics';
 $LNG['admin_ttl_security'] 			= $LNG['admin_menu_security'] 		= 'Password';
 $LNG['admin_ttl_users'] 			= $LNG['admin_menu_users'] 			= 'Manage Users';
@@ -440,6 +445,7 @@ $LNG['admin_ttl_manage_pages']		= $LNG['admin_menu_manage_pages']	= 'Manage Page
 $LNG['admin_ttl_manage_groups']		= $LNG['admin_menu_manage_groups'] 	= 'Manage Groups';
 $LNG['admin_ttl_manage_reports']	= $LNG['admin_menu_manage_reports'] = 'Manage Reports';
 $LNG['admin_ttl_manage_ads']		= $LNG['admin_menu_manage_ads'] 	= 'Manage Ads';
+$LNG['admin_ttl_info_pages']		= $LNG['admin_menu_info_pages'] 	= 'Info Pages';
 
 $LNG['list_users'] = 'All Users';
 $LNG['list_moderators'] = 'Moderators';
@@ -449,11 +455,17 @@ $LNG['list_suspended'] = 'Suspended';
 $LNG['title'] = 'Title';
 $LNG['admin_sub_title'] = 'The site\'s title';
 
+$LNG['logo'] = 'Logo';
+$LNG['admin_sub_logo'] = 'The site\'s logo (PNG format)';
+
 $LNG['admin_ttl_captcha'] = 'Captcha';
 $LNG['admin_sub_captcha'] = 'Enable captcha at registration';
 
 $LNG['admin_ttl_timestamp'] = 'Timestamp';
 $LNG['admin_sub_timestamp'] = 'The Messages, Comments and Chat timestamp type';
+
+$LNG['admin_ttl_timezone'] = 'Timezone';
+$LNG['admin_sub_timezone'] = 'Timezone supported by PHP';
 
 $LNG['admin_ttl_msg_perpage'] = 'Messages';
 $LNG['admin_sub_msg_perpage'] = 'The number of messages per page';
@@ -510,7 +522,10 @@ $LNG['admin_ttl_message_format'] = 'Image Format (Messages)';
 $LNG['admin_sub_message_format'] = 'Image format allowed for upload (Messages), use only gif,png,jpg other formats are not supported';
 
 $LNG['admin_ttl_censor'] = 'Censor';
-$LNG['admin_sub_censor'] = 'Words to be censored (divided by \',\' [comma])';
+$LNG['admin_sub_censor'] = 'Censored words (example: word1, word2, word3)';
+
+$LNG['email_providers'] = 'Email Providers';
+$LNG['sub_email_providers'] = 'Allow the registration to certain email providers (example: domain.com, domain.org)';
 
 $LNG['admin_ttl_ad1'] = 'Ad Unit 1';
 $LNG['admin_sub_ad1'] = 'Advertisement Unit 1 (Bottom [Welcome Page])';
@@ -609,6 +624,21 @@ $LNG['admin_sub_tracking'] = 'The analytics tracking code';
 $LNG['join_date'] = 'Join Date';
 $LNG['user_group'] = 'User Group';
 $LNG['ttl_verified'] = 'Verified';
+
+$LNG['sub_verified'] = 'Account verified status';
+$LNG['sub_group'] = 'Account group';
+$LNG['sub_suspended'] = 'Account suspention status';
+
+$LNG['page_title'] = 'Page Title';
+$LNG['page_url'] = 'Page URL';
+$LNG['public_page'] = 'Public Page';
+$LNG['page_content'] = 'Page Content';
+
+$LNG['sub_page_title'] = 'The page title (supports translatable strings)';
+$LNG['sub_page_url'] = 'The page URL (no special characters)';
+$LNG['sub_public_page'] = 'Display the page in footer and sidebar';
+$LNG['sub_page_content'] = 'The page content (supports translatable strings)';
+$LNG['url_exists'] = 'This page URL already exists';
 
 $LNG['per_page'] = '/ page';
 $LNG['per_ip'] = '/ IP';
@@ -873,7 +903,6 @@ $LNG['terms_of_use'] = 'Terms of Use';
 $LNG['about'] = 'About';
 $LNG['disclaimer'] = 'Disclaimer';
 $LNG['contact'] = 'Contact';
-$LNG['api_documentation'] = 'API Documentation';
 $LNG['developers'] = 'Developers';
 $LNG['language'] = 'Language';
 
