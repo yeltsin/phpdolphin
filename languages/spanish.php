@@ -1,10 +1,12 @@
 <?php
-//======================================================================\\
-// Author: Jaume d'Urgell                                               \\
-// Website: http://https://www.ucm.es/emui/jaume-durgell                \\
-// Email: jaume@durgell.com                                             \\
-// Language: Spanish (Castellano)                                       \\
-//======================================================================\\
+// Language Name
+$name = 'Spanish (Castellano)';
+
+// Language Author
+$author = 'Jaume d\'Urgell';
+
+// Language URL
+$url = 'http://https://www.ucm.es/emui/jaume-durgell';
 
 $LNG['0_already_reported'] = 'Esta respuesta ya ha sido denunciada y será revisada lo antes posible. Lamentamos las molestias. Gracias por tu colaboración.';
 $LNG['0_is_deleted'] = 'La respuesta se ha borrado. Gracias por tu colaboración.';
