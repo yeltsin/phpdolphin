@@ -8,6 +8,8 @@ $author = 'phpDolphin';
 // Language URL
 $url = 'http://phpdolphin.com';
 
+$LNG['lang_direction'] = 'ltr';
+
 $LNG['user_success'] = 'Cont creeat cu succes';
 $LNG['user_exists'] = 'Numele de utilizator există deja';
 $LNG['email_exists'] = 'Adresa de email este deja folosită';
