@@ -8,6 +8,8 @@ $author = 'Jaume d\'Urgell';
 // Language URL
 $url = 'https://www.ucm.es/emui/jaume-durgell';
 
+$LNG['lang_direction'] = 'ltr';
+
 $LNG['0_already_reported'] = 'Esta respuesta ya ha sido denunciada y será revisada lo antes posible. Lamentamos las molestias. Gracias por tu colaboración.';
 $LNG['0_is_deleted'] = 'La respuesta se ha borrado. Gracias por tu colaboración.';
 $LNG['0_is_safe'] = 'Esta respuesta se considera <strong>segura</strong> por el equipo de administración.';
