@@ -1,61 +1,61 @@
 <?php
 // Language Name
-$name = 'English';
+$name = 'Portuguese';
 
 // Language Author
-$author = 'phpDolphin';
+$author = 'Yeltsin';
 
 // Language URL
 $url = 'http://phpdolphin.com';
 
 $LNG['lang_direction'] = 'ltr';
 
-$LNG['user_success'] = 'User succesfully created';
-$LNG['user_exists'] = 'This username already exists';
-$LNG['email_exists'] = 'This email is already in use';
-$LNG['all_fields'] = 'All fields are required';
-$LNG['user_alnum'] = 'The username must consists only from letters and numbers';
-$LNG['user_too_short'] = 'The username must be between 3 and 32 characters';
-$LNG['user_limit'] = 'Too many accounts created from this IP';
-$LNG['invalid_email'] = 'Invalid email';
-$LNG['invalid_user_pw'] = 'Invalid username or password';
-$LNG['invalid_captcha'] = 'Invalid captcha';
-$LNG['activate_email'] = 'An activation link has been sent to your email';
-$LNG['account_activated'] = 'Your account has been activated';
-$LNG['log_out'] = 'Log Out';
-$LNG['hello'] = 'Hello';
-$LNG['register'] = 'Register';
-$LNG['login'] = 'Login';
-$LNG['connect'] = 'Connect';
-$LNG['password'] = 'Password';
-$LNG['username'] = 'Username';
-$LNG['email'] = 'Email';
+$LNG['user_success'] = 'Usuário criado com sucesso';
+$LNG['user_exists'] = 'Esse usuário já está em uso';
+$LNG['email_exists'] = 'Esse e-mail já está em uso';
+$LNG['all_fields'] = 'Todos os campos são obrigatórios';
+$LNG['user_alnum'] = 'O nome do usuário deve conter apenas letras e números';
+$LNG['user_too_short'] = 'O nome de usuário deve conter entre 3 e 32 caracteres';
+$LNG['user_limit'] = 'Muitas contas criadas por este IP';
+$LNG['invalid_email'] = 'E-mail inválido';
+$LNG['invalid_user_pw'] = 'Usuário ou senha inválido';
+$LNG['invalid_captcha'] = 'Verificação inválida';
+$LNG['activate_email'] = 'Um link de ativação foi enviado para o seu e-mail';
+$LNG['account_activated'] = 'Sua conta foi ativada com sucesso';
+$LNG['log_out'] = 'Sair';
+$LNG['hello'] = 'Olá';
+$LNG['register'] = 'Cadastrar';
+$LNG['login'] = 'Entrar';
+$LNG['connect'] = 'Conectar';
+$LNG['password'] = 'Senha';
+$LNG['username'] = 'Usuário';
+$LNG['email'] = 'E-mail';
 $LNG['captcha'] = 'Captcha';
-$LNG['username_or_email'] = 'Username or email';
-$LNG['welcome_title'] = 'Welcome';
-$LNG['welcome_desc'] = 'to our social network';
-$LNG['welcome_about'] = 'share your memories, connect with others, make new friends.';
-$LNG['forgot_password'] = 'Forgot your password?';
-$LNG['remember_me'] = 'Remember me';
-$LNG['all_rights_reserved'] = 'All rights reserved';
+$LNG['username_or_email'] = 'Usuário ou e-mail';
+$LNG['welcome_title'] = 'Bem-vindo';
+$LNG['welcome_desc'] = 'à nossa rede social';
+$LNG['welcome_about'] = 'compartilhe suas lembranças, conecte com outros, faça novos amigos.';
+$LNG['forgot_password'] = 'Esqueceu sua senha?';
+$LNG['remember_me'] = 'Lembre-se de mim';
+$LNG['all_rights_reserved'] = 'Todos os direitos reservados';
 
-$LNG['welcome_one'] = 'Connect';
-$LNG['welcome_two'] = 'Share';
-$LNG['welcome_three'] = 'Discover';
-$LNG['welcome_one_desc'] = 'Connect with your family and friends and share your moments';
-$LNG['welcome_two_desc'] = 'Share what\'s new and life moments with your friends';
-$LNG['welcome_three_desc'] = 'Discover new people, create new connections and make new friends';
-$LNG['latest_users'] = 'Latest users';
+$LNG['welcome_one'] = 'Conectar';
+$LNG['welcome_two'] = 'Compartilhar';
+$LNG['welcome_three'] = 'Descobrir';
+$LNG['welcome_one_desc'] = 'Conecte-se com a sua família e amigos e compartilhe momentos';
+$LNG['welcome_two_desc'] = 'Compartilhe o que há de novo em sua vida e momentos da sua vida com seus amigos';
+$LNG['welcome_three_desc'] = 'Discubra novas pessoas, crie conexões e faça novos amigos';
+$LNG['latest_users'] = 'Últimos usuários';
 
 // NOTIFICATION BOXES
-$LNG['settings_saved'] = 'Settings Saved';
-$LNG['nothing_saved'] = 'Nothing Saved';
-$LNG['password_changed'] = 'Password Changed';
-$LNG['nothing_changed'] = 'Nothing Changed';
-$LNG['incorrect_date'] = 'The selected date is not valid, please pick a valid date.';
-$LNG['password_not_changed'] = 'The password was not changed.';
-$LNG['image_saved'] = 'Image Saved';
-$LNG['error'] = 'Error';
+$LNG['settings_saved'] = 'Configurações Salvas';
+$LNG['nothing_saved'] = 'Nada foi salvo';
+$LNG['password_changed'] = 'Senha foi atualizada';
+$LNG['nothing_changed'] = 'Nada foi atualizado';
+$LNG['incorrect_date'] = 'A data selecionado não é válido, por favor escolha uma data válida.';
+$LNG['password_not_changed'] = 'A senha não foi alterada.';
+$LNG['image_saved'] = 'Imagem salva';
+$LNG['error'] = 'Erro';
 $LNG['no_file'] = 'You did not selected any files to be uploaded, or the selected file(s) are empty.';
 $LNG['file_exceeded'] = 'The selected file size must not exceed <strong>%s</strong> MB.';
 $LNG['file_format'] = 'The selected file format is not supported. Upload <strong>%s</strong> file format';
